@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box model</title>
+    <style>
+      div {
+        width: 300px;
+        height: 300px;
+        box-sizing: border-box /*Koristimo za zadržavanje originalne veličine*/;
+      }
+      .prvi {
+        background-color: aquamarine;
+        border: 3px solid black;
+        padding: 50px 65px;
+        margin: 0 auto;
+      }
+      .drugi {
+        background-color: blueviolet;
+        margin: 50px 10px 5px 2px; /*U smjeru kazaljke na satu vrijedi i za padding*/
+        border: 2px solid blue;
+        border-radius: 50%; /*50% za završen krug*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="prvi"><p>Ovo je prvi paragraf u prvom div elementu.</p></div>
+    <div class="drugi"></div>
+  </body>
+</html>
