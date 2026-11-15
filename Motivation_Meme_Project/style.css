@@ -17,5 +17,21 @@
 .h1 {
   color: white;
   text-align: center;
-  margin
+  font-family: "Libre Baskerville", serif;
+  text-transform: uppercase;
+}
+.image{
+    border: 5px solid white;
+    width: 50%;
+    margin-left: 25%;
+}
+.div{
+  width: 50%;
+  margin-left: 25%;
+}
+.paragraf{
+  color: white;
+  text-align: center;
+  font-family: "Libre Baskerville", serif;
+  text-transform: uppercase;
 }
